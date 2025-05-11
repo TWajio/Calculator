@@ -66,3 +66,8 @@ button{
     background:linear-gradient(to right, #00ff08 10%, #a6cdaa 100%);
 
 }
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 5px #ff0000;
+    transition: all 0.1s ease;
+}
